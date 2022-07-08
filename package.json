@@ -1,10 +1,10 @@
 {
-  "name": "reservoir-indexer",
+  "name": "nfnt-indexer",
   "version": "5.103.2",
   "description": "Reservoir Protocol Indexer",
   "main": "./dist/index.js",
-  "repository": "https://github.com/reservoirprotocol/indexer",
-  "author": "Uneven Labs",
+  "repository": "https://github.com/soulswapfinance/nfnt-indexer",
+  "author": "0xBuns",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -59,6 +59,7 @@
     "joi": "17.x",
     "json-stable-stringify": "^1.0.1",
     "module-alias": "^2.2.2",
+    "nfnt-sdk": "^0.0.118",
     "node-cron": "^3.0.0",
     "node-pg-migrate": "^6.0.0",
     "nodemon": "^2.0.15",

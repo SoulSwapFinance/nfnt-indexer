@@ -3,6 +3,7 @@ node_modules
 
 # Secrets
 .env
+.env.locally
 
 # Build
 dist
@@ -11,6 +12,7 @@ tsconfig.tsbuildinfo
 # Misc
 yarn-error.log
 postgres/
+dump.rdb
 
 # IDE
 *.iml

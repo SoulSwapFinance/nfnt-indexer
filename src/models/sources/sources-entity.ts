@@ -10,6 +10,7 @@ export type SourcesMetadata = {
   url?: string | null;
   tokenUrlMainnet?: string | null;
   tokenUrlRinkeby?: string | null;
+  tokenUrlFantom?: string | null;
 };
 
 export class SourcesEntity {

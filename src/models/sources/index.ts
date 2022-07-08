@@ -63,11 +63,12 @@ export class Sources {
     return new SourcesEntity({
       id: 0,
       address: AddressZero,
-      name: "Reservoir",
+      name: "Enjoyooor NFT",
       metadata: {
-        icon: "https://www.reservoir.market/reservoir.svg",
+        icon: "https://enjoyooor.com/logo.png",
         tokenUrlMainnet: "https://www.reservoir.market/collections/${contract}/${tokenId}",
         tokenUrlRinkeby: "https://www.reservoir.fun/collections/${contract}/${tokenId}",
+        tokenUrlFantom: "https://www.enjoyooor.com/collections/${contract}/${tokenId}",
       },
     });
   }
@@ -187,10 +188,21 @@ export class Sources {
 
         return _.replace(sourceEntity.metadata.url, "${tokenId}", tokenId);
       }
+      // } else {
+      //   if (sourceEntity.metadata.tokenUrlRinkeby && contract && tokenId) {
+      //     sourceEntity.metadata.url = _.replace(
+      //       sourceEntity.metadata.tokenUrlRinkeby,
+      //       "${contract}",
+      //       contract
+      //     );
+
+      //     return _.replace(sourceEntity.metadata.url, "${tokenId}", tokenId);
+      //   }
+      // }
     } else {
-      if (sourceEntity.metadata.tokenUrlRinkeby && contract && tokenId) {
+      if (sourceEntity.metadata.tokenUrlFantom && contract && tokenId) {
         sourceEntity.metadata.url = _.replace(
-          sourceEntity.metadata.tokenUrlRinkeby,
+          sourceEntity.metadata.tokenUrlFantom,
           "${contract}",
           contract
         );

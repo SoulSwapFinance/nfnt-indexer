@@ -39,7 +39,7 @@ export const getOpenApiOptions: RouteOptions = {
 
       data.openapi["servers"] = [
         {
-          url: "https://api.reservoir.tools",
+          url: "https://api.enjoyooor.com",
         },
         {
           url: "https://api-rinkeby.reservoir.tools",

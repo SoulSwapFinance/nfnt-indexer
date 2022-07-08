@@ -1,7 +1,7 @@
 {
   "name": "nfnt-indexer",
   "version": "5.103.2",
-  "description": "Reservoir Protocol Indexer",
+  "description": "Enjoyooor Protocol Indexer",
   "main": "./dist/index.js",
   "repository": "https://github.com/soulswapfinance/nfnt-indexer",
   "author": "0xBuns",

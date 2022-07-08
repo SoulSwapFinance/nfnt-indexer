@@ -1,6 +1,6 @@
-# Reservoir Protocol Indexer
+# Enjoyooor Protocol Indexer
 
-Core Reservoir Protocol services (eg. blockchain indexing/monitoring, orderbook maintenance, order validation).
+Core Enjoyooor Protocol services (eg. blockchain indexing/monitoring, orderbook maintenance, order validation).
 
 ### Build and run
 

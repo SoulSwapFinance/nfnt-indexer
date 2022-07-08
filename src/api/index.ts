@@ -70,7 +70,7 @@ export const start = async (): Promise<void> => {
   const apiDescription =
     "You are viewing the reference docs for the Enjoyooor API.\
     \
-    For a more complete overview with guides and examples, check out the <a href='https://reservoirprotocol.github.io'>Reservoir Protocol Docs</a>.";
+    For a more complete overview with guides and examples, check out the Enjoyooor Protocol Docs (coming soon).";
 
   await server.register([
     {

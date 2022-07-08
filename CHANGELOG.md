@@ -1644,7 +1644,7 @@
 
 ### Bug Fixes
 
-* unattributed reservoir sales ([40d0625](https://github.com/reservoirprotocol/indexer/commit/40d0625f5e4d2aeb8c9fd97f5e1a0e5204c8db16))
+* unattributed Enjoyooor sales ([40d0625](https://github.com/reservoirprotocol/indexer/commit/40d0625f5e4d2aeb8c9fd97f5e1a0e5204c8db16))
 
 
 

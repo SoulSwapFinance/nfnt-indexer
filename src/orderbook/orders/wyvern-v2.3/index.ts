@@ -347,10 +347,10 @@ export const save = async (
         }
       }
 
-      // Handle: native Reservoir orders
-      let isReservoir = true;
+      // Handle: native Enjoyooor orders
+      let isEnjoyooor = true;
       if (source === "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073") {
-        isReservoir = false;
+        isEnjoyooor = false;
       }
 
       // Handle: conduit
@@ -379,7 +379,7 @@ export const save = async (
         nonce: order.params.nonce,
         source_id: source ? toBuffer(source) : null,
         source_id_int: sourceId,
-        is_reservoir: isReservoir ? isReservoir : null,
+        is_reservoir: isEnjoyooor ? isEnjoyooor : null,
         contract: toBuffer(info.contract),
         conduit: toBuffer(conduit),
         fee_bps: feeBps,

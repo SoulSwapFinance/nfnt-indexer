@@ -137,7 +137,7 @@ export const getExecuteBidV1Options: RouteOptions = {
             });
           } else if (collection && attributeKey && attributeValue) {
             if (query.orderbook !== "reservoir") {
-              throw Boom.notImplemented("Attribute bids are not supported outside of Reservoir");
+              throw Boom.notImplemented("Attribute bids are not supported outside of Enjoyooor");
             }
 
             order = await wyvernV23BuyAttribute.build({
@@ -152,7 +152,7 @@ export const getExecuteBidV1Options: RouteOptions = {
             });
           } else if (collection) {
             if (query.orderbook !== "reservoir") {
-              throw Boom.notImplemented("Collection bids are not supported outside of Reservoir");
+              throw Boom.notImplemented("Collection bids are not supported outside of Enjoyooor");
             }
 
             order = await wyvernV23BuyCollection.build({

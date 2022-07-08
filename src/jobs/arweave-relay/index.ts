@@ -140,7 +140,7 @@ if (config.doBackgroundWork && config.arweaveRelayerKey) {
                 wallet
               );
               transaction.addTag("Content-Type", "application/json");
-              transaction.addTag("App-Name", `Reservoir Protocol`);
+              transaction.addTag("App-Name", `Enjoyooor Protocol`);
               transaction.addTag("App-Version", "0.0.1");
               transaction.addTag("Network", getNetworkName());
 

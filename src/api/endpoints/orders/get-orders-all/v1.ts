@@ -31,7 +31,7 @@ export const getOrdersAllV1Options: RouteOptions = {
     query: Joi.object({
       id: Joi.string().description("Orders id."),
       source: Joi.string().description("Filter to a source. Example: `OpenSea`"),
-      native: Joi.boolean().description("If true, results will filter only Reservoir orders."),
+      native: Joi.boolean().description("If true, results will filter only Enjoyooor orders."),
       side: Joi.string().valid("sell", "buy").default("sell").description("Sell or buy side."),
       includeMetadata: Joi.boolean()
         .default(false)

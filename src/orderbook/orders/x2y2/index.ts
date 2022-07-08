@@ -155,8 +155,8 @@ export const save = async (orderInfos: OrderInfo[]): Promise<SaveResult[]> => {
       const source = sourceEntity.address;
       const sourceId = sourceEntity.id;
 
-      // Handle: native Reservoir orders
-      const isReservoir = false;
+      // Handle: native Enjoyooor orders
+      const isEnjoyooor = false;
 
       // Handle: conduit
       let conduit = Sdk.X2Y2.Addresses.Exchange[config.chainId];
@@ -187,7 +187,7 @@ export const save = async (orderInfos: OrderInfo[]): Promise<SaveResult[]> => {
         nonce: null,
         source_id: source ? toBuffer(source) : null,
         source_id_int: sourceId,
-        is_reservoir: isReservoir ? isReservoir : null,
+        is_reservoir: isEnjoyooor ? isEnjoyooor : null,
         contract: toBuffer(order.params.nft.token),
         conduit: toBuffer(conduit),
         fee_bps: feeBps,

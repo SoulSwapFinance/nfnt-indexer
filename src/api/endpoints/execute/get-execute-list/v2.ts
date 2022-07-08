@@ -75,7 +75,7 @@ export const getExecuteListV2Options: RouteOptions = {
       orderbook: Joi.string()
         .valid("opensea", "looks-rare", "reservoir")
         .default("reservoir")
-        .description("Orderbook where order is placed. Example: `Reservoir`"),
+        .description("Orderbook where order is placed. Example: `Enjoyooor`"),
       source: Joi.string().description(
         "Name of the platform that created the order. Example: `Chimpers Market`"
       ),

@@ -319,8 +319,8 @@ export const save = async (
         sourceId = sourceEntity.id;
       }
 
-      // Handle: native Reservoir orders
-      const isReservoir = true;
+      // Handle: native Enjoyooor orders
+      const isEnjoyooor = true;
 
       const feeBreakdown = order.params.fees.map(({ recipient, amount }) => ({
         kind: "royalty",
@@ -347,7 +347,7 @@ export const save = async (
         nonce: order.params.nonce,
         source_id: source ? toBuffer(source) : null,
         source_id_int: sourceId,
-        is_reservoir: isReservoir ? isReservoir : null,
+        is_reservoir: isEnjoyooor ? isEnjoyooor : null,
         contract: toBuffer(order.params.nft),
         conduit: toBuffer(Sdk.OpenDao.Addresses.Exchange[config.chainId]),
         fee_bps: feeBps.toNumber(),

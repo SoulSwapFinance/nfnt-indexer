@@ -254,8 +254,8 @@ export const save = async (
         });
       }
 
-      // Handle: native Reservoir orders
-      let isReservoir = false;
+      // Handle: native Enjoyooor orders
+      let isEnjoyooor = false;
 
       // Handle: source and fees breakdown
       const sources = await Sources.getInstance();
@@ -270,7 +270,7 @@ export const save = async (
         sourceId = sourceEntity.id;
 
         // Assume native listing
-        isReservoir = true;
+        isEnjoyooor = true;
       }
 
       const openSeaFeeRecipients = [
@@ -303,7 +303,7 @@ export const save = async (
         nonce: order.params.counter,
         source_id: source ? toBuffer(source) : null,
         source_id_int: sourceId,
-        is_reservoir: isReservoir ? isReservoir : null,
+        is_reservoir: isEnjoyooor ? isEnjoyooor : null,
         contract: toBuffer(info.contract),
         conduit: toBuffer(
           new Sdk.Seaport.Exchange(config.chainId).deriveConduit(order.params.conduitKey)

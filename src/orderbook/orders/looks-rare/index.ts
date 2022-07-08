@@ -209,10 +209,10 @@ export const save = async (
         // TODO: Include royalty fees as well.
       ];
 
-      // Handle: native Reservoir orders
-      let isReservoir = true;
+      // Handle: native Enjoyooor orders
+      let isEnjoyooor = true;
       if (source === "0x5924a28caaf1cc016617874a2f0c3710d881f3c1") {
-        isReservoir = false;
+        isEnjoyooor = false;
       }
 
       // Handle: conduit
@@ -243,7 +243,7 @@ export const save = async (
         nonce: order.params.nonce,
         source_id: source ? toBuffer(source) : null,
         source_id_int: source ? sources.getByName("LooksRare").id : null,
-        is_reservoir: isReservoir ? isReservoir : null,
+        is_reservoir: isEnjoyooor ? isEnjoyooor : null,
         contract: toBuffer(order.params.collection),
         conduit: toBuffer(conduit),
         fee_bps: feeBps,

@@ -221,7 +221,7 @@ export const postOrderV2Options: RouteOptions = {
         }
 
         case "wyvern-v2.3": {
-          // Both Reservoir and OpenSea are supported as orderbooks.
+          // Both Enjoyooor and OpenSea are supported as orderbooks.
           switch (orderbook) {
             case "reservoir": {
               const orderInfo: orders.wyvernV23.OrderInfo = {
@@ -316,7 +316,7 @@ export const postOrderV2Options: RouteOptions = {
         }
 
         case "looks-rare": {
-          // Both Reservoir and LooksRare are supported as orderbooks.
+          // Both Enjoyooor and LooksRare are supported as orderbooks.
           switch (orderbook) {
             case "reservoir": {
               const orderInfo: orders.looksRare.OrderInfo = {
